@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+  Author:  Michael Mulligan
+  Created:  4/19/19, 8:00 pm
+  Last Edit:  4/28/19, 8:00 pm
+  -->
+  <html lang="en">
+    <head>
+      <title>Contact</title>
+      <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+    </head>
+
+    <body>
+      <main>
+        <header><h1>Mountaintop Grill</h1></header>
+        
+      <nav>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="menu.html">Menu</a></p>
+        <p><a href="contact.html">Contact Us</a></p>
+      </nav>
+      <br />
+      <br />
+      <br />
+      <br />
+      <section>
+        <form action="submit.html" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br />
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email"><br />
+          <label for="phone">Phone:</label>
+          <input type="text" id="phone" name="phone"><br />
+          <label for="inquiry">Reason for inquiry:</label>
+          <select id="inquiry" name="inquiry">
+            <option value="default" selected>Catering</option>
+            <option value="privateParty">Private Party</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+          </select><br />
+          <label for="info">Additional Information</label>
+          <textarea id="info" name="info" width: 400px; ></textarea><br />
+        <fieldset>
+          <legend>Have you been to Mountaintop Grill?</legend>
+          <input type="radio" id="choice1" name="visit" value="No">
+          <label for="choice1">No</label>
+          <input type="radio" id="choice2" name="visit" value="Yes">
+          <label for="choice2">Yes</label><br />
+        </fieldset>
+        <fieldset>
+          <legend>Best days to contact you:</legend>
+          <input type="checkbox" id="Monday" name="contact" value="Monday">
+          <label for="Monday">M</label>
+          <input type="checkbox" id="Tuesday" name="contact" value="Tuesday">
+          <label for="Tuesday">T</label>
+          <input type="checkbox" id="Wednesday" name="contact" value="Wednesday">
+          <label for="Wednesday">W</label>
+          <input type="checkbox" id="Thursday" name="contact" value="Thursday"
+          <label for="Thursday">Th</label>
+          <input type="checkbox" id="Friday" name="contact" value="Friday">
+          <label for="Friday">F</label><br />
+        </fieldset>
+          <input type="submit" name="submit" value="Send Request">
+      </section>
+      <br />
+      <br />
+      <br />
+      <br />
+    <footer>
+      <p>7 Upper Ridge Trail, Grand Teton, WY  80018<br />
+        (818) 555-1212
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
