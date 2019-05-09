@@ -1,12 +1,11 @@
 /*
   Author:  Michael Mulligan
   Created:  4/22/19, 11:40 pm
-  Last Edit:  5/6/19, 4:00 am
+  Last Edit:  5/9/19, 2:00 pm
 */
 body {
-  background-color: forestgreen;
   font-family: arial, helvetica, sans-serif;
-  color: tan;
+  background-color: forestgreen;
   text-align: center;
   max-width: 900px;
   margin: 0 auto;
@@ -15,73 +14,51 @@ body {
 header {
   background-color: palegreen;
   color: brown;
+  font-family: "Miama";
   height: 150px;
   text-align: center;
-  padding: 10px 10px 10px 10px;
-  font-size: 2.1em;
+  padding: 10px;
+  font-size: 5.1em;
+}
+
+@font-face {
+
 }
 
 footer {
   background-color: palegreen;
   color: brown;
-  height: 70px;
+  height: 120px;
   text-align: center;
-  padding:  10px, 3px, 3px, 3px;
+  padding: 50px;
+  margin: auto;
 }
-
-img { float: center; }
-
-/* nav...links between pages */
-nav {
-  /* border-top: thin brown solid;
-  border-bottom: thin brown solid; */
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: center;
-}
-
-nav a {
-  background-color: palegreen;
-  color: white;
-  padding: 8px;
-  border: thin solid brown;
-  text-decoration: none;
-  display: block;
-  margin: 20px;
-  width: 100px;
-  float: left;
-}
-
-nav .btn { background-color: palegreen; color: brown; }
-
-nav .btn:hover { font-weight: bold; }
-
-nav a:visited {color: gray;}
-
-nav a:hover {background-color: yellow; color: brown;}
-
-nav a:active {font-weight: bold;}
 
 /* container styles */
 .container-fluid
 
 /* table styles */
 .table-responsive {
-/*  border: 1px solid brown;*/
+  background-color: forestgreen;
   border-collapse: collapse;
-  padding: 5px 10px;
+  padding: 10px;
   width: 90%;
   margin: auto;
   text-align: center;
 }
 
-tr {height: 30px;}
+tr {height: 5px;}
 
 th {
-  height: 30px;
+  height: 10px;
   text-align: center;
-  font: 1.2em;
-}
+  }
+
+td { padding: 5px;}
+
+form {float: left;}
+
+label {text-align: left;}
 
 .left {float:left;}
 
