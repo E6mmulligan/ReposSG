@@ -1,7 +1,7 @@
 /*
   Author:  Michael Mulligan
   Created:  4/22/19, 11:40 pm
-  Last Edit:  5/9/19, 2:00 pm
+  Last Edit:  5/9/19, 8:00 pm
 */
 body {
   font-family: arial, helvetica, sans-serif;
@@ -25,14 +25,9 @@ header {
 
 }
 
-footer {
-  background-color: palegreen;
-  color: brown;
-  height: 120px;
-  text-align: center;
-  padding: 50px;
-  margin: auto;
-}
+jumbotron {background-color: forestgreen; color: palegreen;}
+
+div {background-color: forestgreen; color: palegreen;}
 
 /* container styles */
 .container-fluid
@@ -65,3 +60,12 @@ label {text-align: left;}
 .right {float:right;}
 
 .clear-float {clear:both;}
+
+footer {
+  background-color: palegreen;
+  color: brown;
+  height: 80px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
